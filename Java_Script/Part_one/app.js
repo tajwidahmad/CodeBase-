@@ -5,4 +5,21 @@
 //! const keyword remains all the same...
 
 //*initilaize -> giving first value to a variable
+//!~ primitive data types->
+// let name ="Tajwid ahmad";
+// console.log(typeof(name));
+//  let n = 100;
+//  console.log(typeof(n));
+//  let b;
+//  console.log(typeof(b));
+//  let sym = Symbol("hello");
+//  console.log(typeof(sym));
 
+//? Refrences 
+let a =[10,20,30,"hello",9.8];
+//? objects
+let student ={
+    name:"Stephen",
+    Regd:174,
+    roll: 78
+};
