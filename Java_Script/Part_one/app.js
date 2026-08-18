@@ -16,10 +16,46 @@
 //  console.log(typeof(sym));
 
 //? Refrences 
-let a =[10,20,30,"hello",9.8];
+// let a =[10,20,30,"hello",9.8];
 //? objects
-let student ={
-    name:"Stephen",
-    Regd:174,
-    roll: 78
-};
+// let student ={
+//     name:"Stephen",
+//     Regd:174,
+//     roll: 78
+// };
+
+
+//?loops
+// for(let i=1;i<=10;i++){
+//     console.log(i);
+// }
+
+// let i=10;
+// while(i>0){
+//     console.log(i);
+//     i--;
+// }
+
+// for(let i=1 ;i<=20;i++){
+//     if(i%2==0){
+//         console.log(i);
+//     }
+// }
+
+// let i=1;
+// while(i<15){
+//     if(i%2!=0){
+//         console.log(i);
+//     }
+//     i++;
+// }
+while(true){
+    let num = Number(prompt("Enter a number"));
+    if(num%2==0){
+        console.log("yes this number is even");
+        break;
+    }
+    else{
+    console.log("Not a even number");
+    }
+}
