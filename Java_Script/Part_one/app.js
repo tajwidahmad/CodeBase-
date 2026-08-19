@@ -49,13 +49,52 @@
 //     }
 //     i++;
 // }
-while(true){
-    let num = Number(prompt("Enter a number"));
-    if(num%2==0){
-        console.log("yes this number is even");
-        break;
-    }
-    else{
-    console.log("Not a even number");
-    }
+// while(true){
+//     let num = Number(prompt("Enter a number"));
+//     if(num%2==0){
+//         console.log("yes this number is even");
+//         break;
+//     }
+//     else{
+//     console.log("Not a even number");
+//     }
+// }
+
+//! Functions in javascript
+
+// function sayhello(){
+//     console.log("hello everyone...!!!")
+// }
+// let fnc = function(){
+//     console.log("hello");
+// };
+
+// let name = prompt("please enter your name");
+// function who_is_calling(name){
+//     console.log(`${name} is calling me....`)
+// }
+// who_is_calling(name);
+
+//! Rest and Spread
+// ?function add(...val){
+// ?    console.log(val);
+// ?}
+// ?add(1,2,3,4,4,5,5,6,7,8,9);
+
+//! Functions with return
+
+// function num_a(first_one(val)){
+//     return val;
+// }
+
+// function first_one(){
+//     console.log("hey!! am the first one...");
+//     return val;
+// }
+
+function say_hello(val){
+    val();
 }
+say_hello(function(){
+    console.log("Hello everyone... ");
+})
