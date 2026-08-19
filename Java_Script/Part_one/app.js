@@ -92,9 +92,21 @@
 //     return val;
 // }
 
-function say_hello(val){
-    val();
+// function say_hello(val){
+//     val();
+// }
+// say_hello(function(){
+//     console.log("Hello everyone... ");
+// })
+
+//!  Closures...
+function one(){
+    let name="Ahmmad"
+    return function two(){
+        let ans= name+"_Quraishi";
+        console.log(ans);
+    }
 }
-say_hello(function(){
-    console.log("Hello everyone... ");
-})
+one()();//! ## way to run this type of closures.
+
+
