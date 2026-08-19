@@ -100,13 +100,28 @@
 // })
 
 //!  Closures...
-function one(){
-    let name="Ahmmad"
-    return function two(){
-        let ans= name+"_Quraishi";
-        console.log(ans);
-    }
-}
-one()();//! ## way to run this type of closures.
+// function one(){
+//     let name="Ahmmad"
+//     return function two(){
+//         let ans= name+"_Quraishi";
+//         console.log(ans);
+//     }
+// }
+// one()();//! ## way to run this type of closures.
 
+function scores(... val){
+    //? val array
+    total=0
+    for(let i=0;i<val.length;i++){
+        total+=val[i];
+    }
+    return total;
+
+}
+console.log(scores(10,12,14,18));
+
+let add = (a,b)=>{
+    return a+b;
+}
+add(5,4);
 
